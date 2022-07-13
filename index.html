@@ -35,7 +35,7 @@
 		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 		        <li class="nav-item">
-		          <a class="nav-link active" aria-current="page" href="#profile">About Me</a>
+		          <a class="nav-link active" aria-current="page" href="#bg-profile">About Me</a>
 		        </li>
 		        <li class="nav-item">
 		          <a class="nav-link" href="#project">Projects</a>
@@ -55,13 +55,13 @@
 	<!-- Navbar end -->
 
 	<!-- Landing Page Start-->
-	<div class="container-fluid" id="profile">
+	<div class="container-fluid" id="bg-profile">
 		<div class="d">
 			<div class="row justify-content-center align-items-center">
 				<div class="container-fluid text-center pt-3 pb-3 col-12 col-md-5 mx-0">
 				    <img src="./images/profile-pic.jpeg" width="300" class="rounded-circle img-fluid"/>
 				</div>
-				<div class="my-5 pt-3 pb-3 col-12 col-md-6 text-light" id="bg-profile">
+				<div class="my-5 pt-3 pb-3 col-12 col-md-6 text-light">
 			        <h2>Denver Laplano</h2>
 			        <h5>Full Stack Developer</h5>
 			        <p>I'm a career shifter from being a Teacher to Full Stack Developer. I find my interest in coding since college and pursue better learning at Zuitt bootcamp which makes me a confident Full Stack Developer</p>
@@ -74,8 +74,9 @@
 	<!-- PROJECTS Start -->
 	<div class="mt-3 text-light p-0" id="project">
 		<h2 class="text-center" id="bg-proj">Projects</h2>
+		
 		<!-- Proj 1 Start -->
-		<div class="d-lg-flex justify-content-center mx-xl-5 p-md-5">
+		<div class="d-lg-flex justify-content-center mx-xl-5 px-md-5">
 			<!-- Proj 1 start -->
 			<div class="card col-lg-4 mb-5 mb-xl-0 mx-2" id="bg-card">
 			  <img src="./images/proj1.jpeg" class="card-img-top" alt="capstone1 image">
@@ -110,7 +111,6 @@
 				    <button type="button" class="btn btn-secondary btn-lg" disabled>Link to Project</button>
 				  </div>
 				</div>
-
 			<!-- Project 3 end -->	
 		</div>
 	</div>
@@ -162,49 +162,61 @@
 	<!-- Tools End -->
 
 
-	<!-- contact section start -->
-	<div class="container-fluid text-center col-lg-6 text-light min-vh-100 p-4" id="contacts">
-		<div>
-			<h2>Contact Me</h2>
-			<div class="row">
-				<form class="container-fluid text-center col-lg-6-8 bg-dark">
-					<div class="my-3">
-					  <label for="formGroupExampleInput" class="form-label">Name</label>
-					  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Full Name">
-					</div>
-
-					<div class="my-3">
-					  <label for="formGroupExampleInput2" class="form-label">Email Address</label>
-					  <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="name@email.com">
-					</div>
-
-					<div class="my-3">
-					  <label for="formGroupExampleInput2" class="form-label">Contact Number</label>
-					  <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="+63 9XX XXX XXXX ">
-					</div>
-
-					<div class="my-3">
-						<label for="formGroupExampleInput2" class="form-label">Concern</label>
-						<select class="form-select" aria-label="Default select example">
-						  <option selected>-Select one-</option>
-						  <option value="1">Quotation</option>
-						  <option value="2">Appointment</option>
-						  <option value="3">Follow-up</option>
-						</select>
-					</div>
-
-					<div class="my-3">
-					  <label for="exampleFormControlTextarea1" class="form-label">Message Me</label>
-					  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-					</div>
-
-					<button type="button" class="btn btn-secondary">Send Email</button>
-				</form>
+	<!-- Contact Me Start -->
+	<div class="text-light p-0" >
+		<h2 class="text-center" id="contacts">Contact Me</h2>
+		
+		<div class="d-lg-flex justify-content-center mx-xl-5 px-md-5">
+			<!--map start -->
+			<div class="card col-lg-6 mb-5 mb-xl-0 mx-2" id="bg-card">
+			  <div class="card-body text-center">
+			  	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123525.34170762826!2d120.9182616625!3d14.646463900000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b70950b66739%3A0xa0f8a709cb1843a7!2sQuezon%20City%20Hall!5e0!3m2!1sen!2sph!4v1657689247265!5m2!1sen!2sph" width="460" height="550" style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			  </div>
 			</div>
+			<!-- map end -->
+
+			<!-- Contact form start -->
+			<div class="card col-lg-5 mb-5 mb-xl-0 mx-2" id="bg-card2">
+				<div class="card-body text-center">
+					<form class="container-fluid text-center col-lg-6-8 bg-dark">
+						<div class="my-3">
+						  <label for="formGroupExampleInput" class="form-label">Name</label>
+						  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Full Name">
+						</div>
+
+						<div class="my-3">
+						  <label for="formGroupExampleInput2" class="form-label">Email Address</label>
+						  <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="name@email.com">
+						</div>
+
+						<div class="my-3">
+						  <label for="formGroupExampleInput2" class="form-label">Contact Number</label>
+						  <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="+63 9XX XXX XXXX ">
+						</div>
+
+						<div class="my-3">
+							<label for="formGroupExampleInput2" class="form-label">Concern</label>
+							<select class="form-select" aria-label="Default select example">
+							  <option selected>-Select one-</option>
+							  <option value="1">Quotation</option>
+							  <option value="2">Appointment</option>
+							  <option value="3">Follow-up</option>
+							</select>
+						</div>
+
+						<div class="my-3">
+						  <label for="exampleFormControlTextarea1" class="form-label">Message Me</label>
+						  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+						</div>
+
+						<button type="button" class="btn btn-secondary">Send Email</button>
+					</form>
+				</div>
+			</div>
+			<!-- Contact form end -->
 		</div>
 	</div>
-	<!-- contact section end -->
-
+	<!-- Contact Me end -->
 
 	<!-- Footer -->
 	<div class="container-fluid text-center text-light mb-0">
