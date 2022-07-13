@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+*{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#bg-image{
+	z-index: -2;
+}
+#bg-profile{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+#bg-proj{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#bg-tools{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#bg-card{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+#bg-card2{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+#bg-card3{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+#contacts{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+#bg-tools1{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+#bg-tools2{
+	background-color: rgba(0, 0, 0, 0.8);
+}
